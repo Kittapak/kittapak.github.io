@@ -1,0 +1,258 @@
+body{
+	padding:0 0;
+	margin:0 0; 
+	font-family: 'Open Sans', sans-serif;
+}
+    
+.header{
+	background: url("../img/cover.jpg");
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-size:cover;
+	min-height: 550px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding:0 0;
+	margin:0 0;
+}
+
+.p{
+	padding:0 0;
+	margin:0 0;
+}
+
+.header-top {
+	padding-top: 3em;
+}
+
+.logo{
+    background: #ef664d;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px ;
+	float: left;
+}
+
+.top-menu{
+    float: right;
+	transition: .3s ease-in-out;
+}
+
+.top-menu ul li{
+	display: inline-block;
+	padding: 5px 15px 0px 15px;
+}
+
+.top-menu ul li a{
+	font-size: 1.1em;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.top-menu ul li a{
+	font-size: 1.1em;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+    transition: .3s ease-in-out;
+    padding: 10px 20px;
+	
+}
+.top-menu ul li a:hover {
+	background: #ef664d;
+    padding: 10px 20px;
+    border-radius: 5px ;
+	
+	
+}
+.top-menu ul li a.active {
+	color: #ef664d;
+	font-weight: 600;
+}
+
+
+nav a {
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+.about-section {
+        padding:3em 0;
+		margin-bottom: auto;
+}
+
+.about-header {
+	background-color: #fff;
+	text-align: center;
+}
+
+.about-header h3 {
+	font-size: 2.5em;
+	font-family: 'Arvo', serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #2a404e;
+}
+
+.about-img {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.about-img img {
+	border: 3px solid #ef664d;
+	border-radius: 103px;
+}
+
+.about-text {
+	margin: 0 auto;
+}
+
+.about-text p {
+	font-size: 15px;
+	color: #7e7e7e;
+	line-height: 1.5em;
+}
+
+.skill-section{
+	padding:3em 0;
+	background:#2e3e4e;
+}
+
+.skill-header{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.skill-header h3
+{
+	font-size: 2.5em;
+	font-family: 'Arvo', serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #ef664d;
+}
+
+.skill-header p{
+	line-height: 1.5em;
+	
+	font-size: 15px;
+	color: #fefefe;
+	padding: 25px 0;
+}
+
+.skill-img{
+	text-align: center;
+}
+
+.education-section{
+	padding:3em 0;
+}
+
+.education-header{
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.education-header h3
+{
+	font-size: 2.5em;
+	font-family: 'Arvo', serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #2a404e;
+}
+
+.education-header p{
+	line-height: 1.5em;
+	font-size: 15px;
+	color: #7e7e7e;
+	padding: 25px 0;
+}
+
+.education-sectiongrids {
+	text-align: center;
+}
+
+.education-grid h4 {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 15px 0;
+	color: #2a404e;
+	text-transform: uppercase;
+}
+
+.education-of-me{
+	width: 100%;
+	height: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.education-grid{
+	text-align: center;
+}
+
+.education-grid p {
+	font-size: 15px;
+	color: #7e7e7e;
+	padding: 0 22px;
+}
+
+.footer-section {
+	width: 100%;
+	height: auto;
+	background: #2e3e4e;
+}
+
+.contact-header {
+	display: grid;
+	text-align: center;
+}
+
+.contact-header h3 {
+	font-size: 2.5em;
+	font-family: 'Arvo', serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #ef664d;
+}
+
+.contact-header h4 {
+	line-height: 1.5em;
+	font-size: 15px;
+	color: #ef664d;
+
+}
+
+.contact-header p {
+	line-height: 1.5em;
+	font-size: 15px;
+	color: #fefefe;
+}
+
+@media only screen and (max-width: 480px) {
+	.logo{
+		text-align: center;
+		grid-template-columns: 1fr;
+	}
+
+	.menu{
+		grid-template-columns: 1fr;
+	}
+}
